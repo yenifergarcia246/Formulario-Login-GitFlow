@@ -1,2 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GranCole - Iniciar Sesión</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      crossorigin="anonymous"
+    />
+  <link rel="icon" href="logo.png" />
 
+</head>
+<body>
+
+  <!-- LADO IZQUIERDO -->
+  <div class="lado-izquierdo">
+    <div class="capa-oscura"></div>
+  </div>
+
+  <!-- LADO DERECHO -->
+  <div class="lado-derecho">
+
+    <!-- Encabezado (afuera del cuadro blanco) -->
+    <div class="encabezado">
+      <img src="logo.png" alt="Logo GranCole" class="logo"/>
+      <h2>Bienvenido a GranCole</h2>
+      <p class="texto-secundario">Inicia sesión para continuar</p>
+    </div>
+
+    <!-- Cuadro blanco del formulario -->
+    <div class="contenedor-formulario">
+      <h3>Iniciar Sesión</h3>
+      <p class="texto-descripcion">Ingresa tus credenciales para acceder al sistema</p>
+
+      <div class="grupo-campo">
+        <label for="usuario">Usuario</label>
+        <div class="campo-con-icono">
+          <i class="fa-solid fa-user"></i>
+          <input type="text" id="usuario" placeholder="00000000" />
+        </div>
+      </div>
+
+      <div class="grupo-campo">
+        <label for="contrasena">Contraseña</label>
+        <div class="campo-con-icono">
+          <i class="fas fa-lock"></i>
+          <input type="password" id="contrasena" placeholder="••••••••" />
+          <i class="fa-solid fa-eye mostrar" onclick="verContrasena()"></i>
+        </div>
+      </div>
+
+      <div class="opciones">
+        <a href="#">¿Olvidaste tu contraseña?</a>
+      </div>
+
+      <button onclick="iniciarSesion()">Iniciar Sesión <i class="fa-solid fa-arrow-right"></i></button>
+
+      <p class="texto-inferior">¿No tienes cuenta? <a href="#">Contacta al administrador</a></p>
+
+      <footer>© 2025 GranCole Pro. Todos los derechos reservados.</footer>
+    </div>
+  </div>
+
+  <script src="funciones.js"></script>
+</body>
+</html>
 
