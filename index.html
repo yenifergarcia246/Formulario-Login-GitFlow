@@ -1,2 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GranCole - Iniciar Sesión</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="icon" href="logo.jpeg" />
+</head>
+<body>
+<!-- 
+  SECCIÓN IZQUIERDA (Landing) -->
+  <section class="landing">
+    <!-- <div class="contenido-landing">
+      <h1>Gestiona tu institución educativa de manera inteligente</h1>
 
+      <ul>
+        <li>Gestión completa de estudiantes y profesores.</li>
+        <li>Sistema de calificaciones y boletines.</li>
+        <li>Control de asistencia en tiempo real.</li>
+        <li>Comunicación integrada y segura.</li>
+      </ul>
+
+      <div class="estadisticas">
+        <div><strong>1,234+</strong><span>Estudiantes</span></div>
+        <div><strong>45+</strong><span>Docentes</span></div>
+        <div><strong>98%</strong><span>Satisfacción</span></div>
+      </div>
+    </div> -->
+
+    <div class="oscurecer"></div>
+  </section>
+
+  <!-- SECCIÓN DERECHA (Login) -->
+  <section class="login">
+
+    <div class="encabezado">
+      <img src="logo.jpeg" class="logo" alt="GranCole Logo">
+      <h2>Bienvenido a GranCole</h2>
+      <p>Inicia sesión para continuar</p>
+    </div>
+
+    <div class="formulario-box">
+
+      <h3>Iniciar Sesión</h3>
+      <p class="descripcion">Ingresa tus credenciales para acceder al sistema</p>
+
+      <div class="campo">
+        <label>Usuario</label>
+        <div class="input-icono">
+          <i class="fa-solid fa-user"></i>
+          <input type="text" id="usuario" placeholder="00000000">
+        </div>
+      </div>
+
+      <div class="campo">
+        <label>Contraseña</label>
+        <div class="input-icono">
+          <i class="fa-solid fa-lock"></i>
+          <input type="password" id="contrasena" placeholder="••••••••">
+          <i class="fa-solid fa-eye mostrar" onclick="verContrasena()"></i>
+        </div>
+      </div>
+
+      <div class="opciones">
+        <a href="#">¿Olvidaste tu contraseña?</a>
+      </div>
+
+      <button onclick="iniciarSesion()">Iniciar Sesión <i class="fa-solid fa-arrow-right"></i></button>
+
+      <p class="inferior">¿No tienes cuenta? <a href="#">Contacta al administrador</a></p>
+
+      <footer>© 2025 GranCole Pro. Todos los derechos reservados.</footer>
+    </div>
+
+  </section>
+
+  <script src="funciones.js"></script>
+</body>
+</html>
 
