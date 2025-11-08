@@ -11,7 +11,7 @@ body {
   overflow: hidden;
 }
 
-/* ✅ LADO IZQUIERDO — LANDING */
+
 .landing {
   flex: 1.2;
   background: url("") center/cover no-repeat;
@@ -65,7 +65,7 @@ body {
   display: block;
 }
 
-/* ✅ LADO DERECHO — LOGIN */
+
 .login {
   flex: 1;
   background: #eaf0ff;
@@ -98,7 +98,7 @@ body {
   color: #667085;
 }
 
-/* ✅ CONTENEDOR DEL FORMULARIO */
+
 .formulario-box {
   background: white;
   padding: 35px;
@@ -118,7 +118,6 @@ body {
   color: #777;
 }
 
-/* ✅ CAMPOS */
 .campo {
   margin-bottom: 15px;
 }
@@ -151,7 +150,7 @@ body {
   padding-left: 10px;
 }
 
-/* ✅ BOTÓN */
+
 button {
   width: 100%;
   padding: 12px;
@@ -188,7 +187,7 @@ footer {
   color: #999;
 }
 
-/* ✅ RESPONSIVE EXACTO AL DISEÑO */
+
 @media (max-width: 900px) {
   body {
     flex-direction: column;
